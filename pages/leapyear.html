@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year</title>
+    <link rel="stylesheet" href="/css/leapyear.css">
+</head>
+<body>
+    <nav class="bar">
+        <div class="logo">
+            <h1><a class="anchorLogo" href="index.html">Trivia calculator</a></h1>
+        </div>
+        <div class= "menu">
+    <ul>
+            <li><a class="anchor" href="rulethree.html">Rule of Three</a></li>
+            <li><a class="anchor" href="thebigone.html">The Big One</a></li>
+            <li><a class="anchor pagleap" href="leapyear.html">Leap Year</a></li>
+            <li><a class="anchor" href="alumnos.html">Crear Alumnos</a></li>
+    </ul>
+        </div>
+    </nav>
+
+    <div class="title">
+        <h1>Comprueba si tu año es bisiesto!!</h1>
+    </div>
+    <div class="box">
+        <select id="year" name="year">
+            <option value="none">Seleccione un año</option>
+            <script>
+                for(let i = new Date().getFullYear(); i > 0; i--){
+                    document.write('<option value="' + i + '">' + i + '</option>');
+                }
+            </script>
+        </select>
+        <br>
+    <input type="text" placeholder="aqui saldrá tu resultado.." name="result" id="leapyear" readonly>
+    <button type="submit" id="btn">Comprobar</button>
+    </div>
+
+</body>
+<script src="/js/leapyear.js"></script>
+</html>

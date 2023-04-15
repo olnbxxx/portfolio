@@ -1,0 +1,65 @@
+.bar {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.anchorLogo {
+    color: black;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+.anchorLogo:hover {
+    color: #666;
+}
+
+.anchor {
+    color: black;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.txt {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+    width: 50%;
+}

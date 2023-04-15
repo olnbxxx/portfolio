@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Alumno</title>
+    <link rel="stylesheet" href="/css/alumnos.css">
+</head>
+
+    <body onload="setselec()">
+        <nav class="bar">
+            <div class="logo">
+                <h1><a class="anchorLogo" href="index.html">Trivia calculator</a></h1>
+                </div>
+                <div class= "menu">
+                <ul>
+                    <li><a class="anchor" href="rulethree.html">Rule of Three</a></li>
+                    <li><a class="anchor" href="thebigone.html">The Big One</a></li>
+                    <li><a class="anchor" href="leapyear.html">Leap Year</a></li>
+                    <li><a class="anchor pagalumns" href="alumnos.html">Crear Alumnos</a></li>
+                </ul>
+                </div>
+        </nav>
+        <div class="tit">
+            <h1>Crear Alumno</h1>
+        </div>
+
+        <div class="inputs">
+            <div class="name">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="nombre"><br><br>
+            </div>
+            <div class="surn">
+                <label for="surnames">Apellidos:</label>
+                <input type="text" id="surnames" name="surnames"><br><br>
+            </div>
+        </div>
+    
+        <div class="dev">
+        <div class="selc">
+            <select id="roomSelect" name="room" >
+            </select>
+        </div>
+        <div class="btn">
+            <button type="input" onclick="addstudent()">Añadir alumno</button>
+        </div>
+        </div>
+
+        <p>Lista de alumnos:</p>
+    
+        <div class="listado" id="student"></div>
+    
+    </body>
+    <script src="/js/alumnos.js"></script>
+</html>
+

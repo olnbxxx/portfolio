@@ -1,0 +1,98 @@
+.bar {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+}
+
+.anchor {
+    color: black;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.anchorLogo {
+    color: black;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+.anchorLogo:hover {
+    color: #666;
+}
+
+.pagrule {
+    background-color: black;
+    border-radius: 0.5rem;
+    color: beige;
+}
+
+
+.head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.cubes {
+    display: flex;
+    justify-content: center;
+}
+
+.input_style {
+    background-color: rgb(221, 238, 231);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+#resultado {
+    cursor: initial;
+}
+
+.boton {
+    background-color: rgb(90, 246, 90);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt; 
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.ends {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+span {
+    font-size: 50px;
+    padding: 0 10px;
+    color: #666;
+}

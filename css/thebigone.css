@@ -1,0 +1,100 @@
+.bar {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+}
+
+.anchor {
+    color: black;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.anchorLogo {
+    color: black;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+.anchorLogo:hover {
+    color: #666;
+}
+
+.pagbig {
+    background-color: black;
+    border-radius: 0.5rem;
+    color: beige;
+}
+
+.titlebig {
+    background-color: black;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5rem;
+
+}
+
+.numbig {
+    padding: 5rem;
+
+}
+
+.inpubig {
+    background-color: beige;
+    border-radius: 6px;
+    padding: 1rem;
+    cursor: default;
+}
+
+.btnbig {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5rem;
+}
+
+.btbigone {
+    font-size: larger;
+    border-radius: 6px;
+    background-color: beige;
+    padding: 0.5rem 5rem;
+    cursor: pointer;
+}
+
+.btbigone:hover {
+    background-color: black;
+    border-bottom: 6px thin beige;
+    color: beige;
+    transform: translateY(6px);
+    transition: all (0.4s);
+}
+
+span {
+    font-size: 2rem;
+    padding: 0 0.25rem;
+    color: #666;
+}

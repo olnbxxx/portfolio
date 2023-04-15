@@ -1,0 +1,108 @@
+.bar {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+}
+
+.anchor {
+    color: black;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.anchorLogo {
+    color: black;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+.anchorLogo:hover {
+    color: #666;
+}
+
+.pagleap {
+    background-color: black;
+    border-radius: 0.5rem;
+    color: beige;
+}
+
+.title {
+    background-color: #bbb7b7;
+    color: white;
+    border-radius: 40px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    flex-wrap: initial;
+    margin: 10% 15%;
+}
+
+select {
+    border-radius: 10px;
+    background-color: rgb(230, 246, 246);
+    cursor: pointer;
+    width: 35%;
+    padding: 10px;
+}
+
+#leapyear {
+    background-color: rgb(230, 246, 246);
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(75, 245, 75);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: #222 20rem;
+    font-size: larger;
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#year {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(230, 246, 246);
+    cursor: pointer;
+    width: 35%;
+    padding: 10px;
+}

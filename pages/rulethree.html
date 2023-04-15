@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Regla de Tres</title>
+    <link rel="stylesheet" href="/css/rulethree.css">
+</head>
+<body>
+
+    <nav class="bar">
+        <div class="logo">
+            <h1><a class="anchorLogo" href="index.html">Trivia calculator</a></h1>
+        </div>
+        <div class= "menu">
+        <ul>
+            <li><a class="anchor pagrule" href="rulethree.html">Rule of Three</a></li>
+            <li><a class="anchor" href="thebigone.html">The Big One</a></li>
+            <li><a class="anchor" href="leapyear.html">Leap Year</a></li>
+            <li><a class="anchor" href="alumnos.html">Crear Alumnos</a></li>
+    </ul>
+        </div>
+    </nav>
+
+    <div class="head">
+        <h1>CALCULADORA REGLA DE TRES</h1>
+    </div>
+    
+    <div class="cubes">
+        <input id="input1"  class="input_style" name="numero1" placeholder="Tercer Valor"/>
+        <span>&rarr;</span>
+        <input id="input2" class="input_style" name="numero2" placeholder="Segundo Valor"/>
+    </div>
+
+    <div class="cubes">
+        <input id="input3" class="input_style"  name="numero3" placeholder="Primer Valor"/>
+        <span>&rarr;</span>
+        <input id="resultado" class="input_style" name="resultado" placeholder="resultado" value="X" readonly/>
+    </div>
+    
+    <div class="ends">
+        <button class="boton" type="submit" id="button_result">calcular</button>
+    </div>
+    
+</body>
+<script src="/js/rulethree.js"></script>
+</html>
